@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Recipe || Linh's kitchen</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/test.svg" alt="simply recipes" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="about.html" class="nav-link"> about </a>
+          <a href="tags.html" class="nav-link"> tags </a>
+          <a href="recipes.html" class="nav-link"> recipes </a>
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img src="./assets/recipes/pasta.jpg" class="img recipe-hero-img" />
+          <article class="recipe-info">
+            <h2>Classic Pasta</h2>
+            <p>A delicious and simple pasta recipe perfect for any meal.</p>
+            <div class="recipe-icons">
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p>10 min.</p>
+              </article>
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p>20 min.</p>
+              </article>
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>servings</h5>
+                <p>4 servings</p>
+              </article>
+            </div>
+            <p class="recipe-tags">
+              Tags: 
+              <a href="dinner.html">dinner</a>
+              <a href="lunch.html">dinner</a>
+            </p>
+          </article>
+        </section>
+        <section class="recipe-content">
+          <article>
+            <h4>instructions</h4>
+            <div class="single-instruction">
+              <header><p>step 1</p><div></div></header>
+              <p>Boil a large pot of salted water and cook pasta according to package instructions.</p>
+            </div>
+            <div class="single-instruction">
+              <header><p>step 2</p><div></div></header>
+              <p>In a separate pan, heat olive oil over medium heat and sauté garlic until fragrant.</p>
+            </div>
+            <div class="single-instruction">
+              <header><p>step 3</p><div></div></header>
+              <p>Add diced tomatoes and season with salt, pepper, and herbs. Simmer for 10 minutes.</p>
+            </div>
+            <div class="single-instruction">
+              <header><p>step 4</p><div></div></header>
+              <p>Drain pasta and mix with the sauce. Toss to coat evenly.</p>
+            </div>
+            <div class="single-instruction">
+              <header><p>step 5</p><div></div></header>
+              <p>Serve hot with grated Parmesan cheese and fresh basil.</p>
+            </div>
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>ingredients</h4>
+              <p class="single-ingredient">200g pasta</p>
+              <p class="single-ingredient">2 tbsp olive oil</p>
+              <p class="single-ingredient">2 cloves garlic, minced</p>
+              <p class="single-ingredient">400g canned diced tomatoes</p>
+              <p class="single-ingredient">Salt and pepper to taste</p>
+              <p class="single-ingredient">1 tsp dried oregano</p>
+              <p class="single-ingredient">Grated Parmesan cheese</p>
+              <p class="single-ingredient">Fresh basil leaves</p>
+            </div>
+            <div>
+                <h4>tools</h4>
+                <p class="single-tool"><a href="https://www.amazon.com/s?k=large+pot">Large pot</a></p>
+                <p class="single-tool"><a href="https://www.amazon.com/s?k=pan">Pan</a></p>
+                <p class="single-tool"><a href="https://www.amazon.com/s?k=wooden+spoon">Wooden spoon</a></p>
+                <p class="single-tool"><a href="https://www.amazon.com/s?k=colander">Colander</a></p>
+              </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <footer class="page-footer">
+      <p>&copy; <span id="date"></span>
+        <span class="footer-logo">Linh's kitchen</span> Built by
+        <a href="https://www.facebook.com/profile.php?id=100093042829205">Khanh Linh</a>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
